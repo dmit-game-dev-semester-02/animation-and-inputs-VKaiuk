@@ -4,14 +4,16 @@ using Microsoft.Xna.Framework.Input;
 
 namespace assignment01_animation_input;
 
-public class Game1 : Game
+public class Input_AnimationGame : Game
 {
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
 
     private Texture2D _background, _foreground;
 
-    public Game1()
+    private const int _WindowWidth = 634;
+    private const int _WindowHeight = 360;
+    public Input_AnimationGame()
     {
         _graphics = new GraphicsDeviceManager(this);
         Content.RootDirectory = "Content";
@@ -20,7 +22,9 @@ public class Game1 : Game
 
     protected override void Initialize()
     {
-        // TODO: Add your initialization logic here
+        _graphics.PreferredBackBufferWidth = _WindowWidth;
+        _graphics.PreferredBackBufferHeight = _WindowHeight;
+        _graphics.ApplyChanges();
 
         base.Initialize();
     }
@@ -29,7 +33,7 @@ public class Game1 : Game
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
 
-        _background = Content.Load<Texture2D>("backgroundColorGrass");
+        _background = Content.Load<Texture2D>("background-forest");
         _foreground = Content.Load<Texture2D>("treeOrange");
         
     }
@@ -50,7 +54,11 @@ public class Game1 : Game
         _spriteBatch.Begin();
 
         _spriteBatch.Draw(_background, Vector2.Zero, Color.White);
-        _spriteBatch.Draw(_foreground, Vector2.Zero, Color.White);
+
+        Vector2 positionTree = new Vector2(320, 10); 
+        Vector2 sizeTree = new Vector2(0.5f, 0.5f); 
+        _spriteBatch.Draw(_foreground, positionTree, null, Color.White, 0f, Vector2.Zero, sizeTree, SpriteEffects.None, 0f);
+        
 
         _spriteBatch.End();
         base.Draw(gameTime);

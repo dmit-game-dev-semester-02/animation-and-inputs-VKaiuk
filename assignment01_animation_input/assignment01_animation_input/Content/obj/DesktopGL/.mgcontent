@@ -4,12 +4,10 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>c:/Users/vitya/Desktop/Github/2025-Jan-DMIT1514-01-assignments/animation-and-inputs-VKaiuk/assignment01_animation_input/assignment01_animation_input/Content/backgroundColorGrass.png</File>
-    <File>c:/Users/vitya/Desktop/Github/2025-Jan-DMIT1514-01-assignments/animation-and-inputs-VKaiuk/assignment01_animation_input/assignment01_animation_input/Content/Station.png</File>
+    <File>c:/Users/vitya/Desktop/Github/2025-Jan-DMIT1514-01-assignments/animation-and-inputs-VKaiuk/assignment01_animation_input/assignment01_animation_input/Content/background-forest.jpg</File>
     <File>c:/Users/vitya/Desktop/Github/2025-Jan-DMIT1514-01-assignments/animation-and-inputs-VKaiuk/assignment01_animation_input/assignment01_animation_input/Content/treeOrange.png</File>
   </SourceFiles>
   <DestFiles>
-    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>

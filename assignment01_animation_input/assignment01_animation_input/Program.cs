@@ -1,2 +1,2 @@
-﻿using var game = new assignment01_animation_input.Game1();
+﻿using var game = new assignment01_animation_input.Input_AnimationGame();
 game.Run();

@@ -24,6 +24,5 @@ C:\Users\vitya\Desktop\Github\2025-Jan-DMIT1514-01-assignments\animation-and-inp
 C:\Users\vitya\Desktop\Github\2025-Jan-DMIT1514-01-assignments\animation-and-inputs-VKaiuk\assignment01_animation_input\assignment01_animation_input\obj\Debug\net8.0\assignment01_animation_input.pdb
 C:\Users\vitya\Desktop\Github\2025-Jan-DMIT1514-01-assignments\animation-and-inputs-VKaiuk\assignment01_animation_input\assignment01_animation_input\obj\Debug\net8.0\assignment01_animation_input.genruntimeconfig.cache
 C:\Users\vitya\Desktop\Github\2025-Jan-DMIT1514-01-assignments\animation-and-inputs-VKaiuk\assignment01_animation_input\assignment01_animation_input\obj\Debug\net8.0\ref\assignment01_animation_input.dll
-C:\Users\vitya\Desktop\Github\2025-Jan-DMIT1514-01-assignments\animation-and-inputs-VKaiuk\assignment01_animation_input\assignment01_animation_input\bin\Debug\net8.0\Content\Station.xnb
-C:\Users\vitya\Desktop\Github\2025-Jan-DMIT1514-01-assignments\animation-and-inputs-VKaiuk\assignment01_animation_input\assignment01_animation_input\bin\Debug\net8.0\Content\backgroundColorGrass.xnb
 C:\Users\vitya\Desktop\Github\2025-Jan-DMIT1514-01-assignments\animation-and-inputs-VKaiuk\assignment01_animation_input\assignment01_animation_input\bin\Debug\net8.0\Content\treeOrange.xnb
+C:\Users\vitya\Desktop\Github\2025-Jan-DMIT1514-01-assignments\animation-and-inputs-VKaiuk\assignment01_animation_input\assignment01_animation_input\bin\Debug\net8.0\Content\background-forest.xnb
